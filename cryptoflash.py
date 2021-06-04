@@ -7,6 +7,7 @@ response = dict(requests.get(url).json())
 class cryptoflash :
 
     def price(self,coin,currency):
+        
         try:
             currencyObject = CurrencyConverter()
             
@@ -14,10 +15,9 @@ class cryptoflash :
             currentPrice = float(response[crypto]["last"])
             try:
                 price = currencyObject.convert(currentPrice, 'INR', currency.upper(),)
-                print(price)
+                return price
             except ValueError:
-                print(currency + " is invalid.")
+               return (currency + " is invalid.")
         
         except KeyError:
-            print(coin + " is invalid.")
-
+            return (coin + " is invalid.")
