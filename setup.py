@@ -4,7 +4,7 @@ long_desc = open('README.txt').read()
 
 setup(
   name='cryptoflash',
-  version='0.0.1',
+  version='0.0.2',
   py_modules=['cryptoflash'],
   url='https://github.com/mdfarhaan/cryptoflash',
   author='Mohammed Farhaan',
