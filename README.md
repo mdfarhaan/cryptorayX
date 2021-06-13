@@ -20,7 +20,8 @@ coin = cryptoflash()
 Set the **Coin** and **Currency** by calling the ```price()``` function.
 It takes two argument that is the _Coin_ and _Currency_
 ```python
-coin.price("BTC", "INR")
+btc_price = coin.price("BTC", "INR")
+print(btc_price)
 ```
 > NOTE: Both the Coin and Currency argument takes in the value in the form
 of symbol.
