@@ -18,14 +18,13 @@ from cryptoflash import cryptoflash
 coin = cryptoflash()
 ```
 ### Get Price:
-Set the **Coin** and **Currency** by calling the ```price()``` function.
-It takes two argument that is the _Coin_ and _Currency_
+Set the **Coin** and **Currency** as an argument by calling the ```price()``` function.
 ```python
 btc_price = coin.price("BTC", "INR")
 print(btc_price)
 ```
 > NOTE: Both the Coin and Currency argument takes in the value in the form
-of symbol.
+of symbol respectively.
 
 #### Your all up and ready to roll!!
 
