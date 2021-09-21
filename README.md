@@ -1,5 +1,5 @@
-# Crypto Flash
-#### Crypto Flash is a Lightweight Python module to get Crypto currency prices
+# CryptorayX
+#### CryptorayX is a Lightweight Python module to get Crypto currency prices
 ##### This module uses the WazirX Public API
 
 
