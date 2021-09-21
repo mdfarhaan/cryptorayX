@@ -4,18 +4,18 @@
 
 
 # Usage
-### The ```cryptoflash``` module can be installed using pip
+### The ```cryptorayX``` module can be installed using pip
 ```python
-pip install cryptoflash
+pip install cryptorayX
 ```
-### Import ```cryptoflash``` module
+### Import ```cryptorayX``` module
 ```python
-from cryptoflash import cryptoflash
+from cryptorayX import cryptorayX
 ```
 ### Create an Object:
 
 ```python
-coin = cryptoflash()
+coin = cryptorayX()
 ```
 ### Get Price:
 Set the **Coin** and **Currency** as an argument by calling the ```price()``` function.
