@@ -3,10 +3,10 @@ from setuptools import setup, find_packages
 long_desc = open('README.txt').read()
 
 setup(
-  name='cryptoflash',
-  version='0.0.2',
-  py_modules=['cryptoflash'],
-  url='https://github.com/mdfarhaan/cryptoflash',
+  name='cryptorayX',
+  version='0.0.3',
+  py_modules=['cryptorayX'],
+  url='https://github.com/mdfarhaan/cryptorayX',
   author='Mohammed Farhaan',
   author_email='farhaanm110@gmail.com',
   description='Lightweight Python module to get Crypto currency price',
